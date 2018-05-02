@@ -1,24 +1,25 @@
 {
-  "name": "bstring",
-  "version": "0.0.2",
+  "name": "bcstring",
+  "version": "0.0.0",
   "description": "String encodings for javascript",
   "keywords": [
     "string",
     "base58",
-    "bech32"
+    "bech32",
+    "cashaddr"
   ],
   "license": "MIT",
-  "repository": "git://github.com/bcoin-org/bstring.git",
-  "homepage": "https://github.com/bcoin-org/bstring",
+  "repository": "git://github.com/bcoin-org/bcstring.git",
+  "homepage": "https://github.com/bcoin-org/bcstring",
   "bugs": {
-    "url": "https://github.com/bcoin-org/bstring/issues"
+    "url": "https://github.com/bcoin-org/bsctring/issues"
   },
   "author": "Christopher Jeffrey <chjjeffrey@gmail.com>",
-  "main": "./lib/bstring.js",
+  "main": "./lib/bcstring.js",
   "scripts": {
     "install": "node-gyp rebuild || echo 'Build failed.'",
-    "browserify": "browserify -s bstring lib/bstring.js | uglifyjs -c > bstring.js",
-    "clean": "rm -f bstring.js",
+    "browserify": "browserify -s bcstring lib/bcstring.js | uglifyjs -c > bcstring.js",
+    "clean": "rm -f bcstring.js",
     "lint": "eslint lib/ test/ || exit 0",
     "test": "mocha --reporter spec test/*-test.js",
     "webpack": "webpack --config webpack.config.js"
