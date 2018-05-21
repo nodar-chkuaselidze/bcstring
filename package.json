@@ -1,6 +1,6 @@
 {
   "name": "bcstring",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "String encodings for javascript",
   "keywords": [
     "string",
