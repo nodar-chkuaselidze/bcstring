@@ -1,9 +1,9 @@
 # bstring
 
 [![Build Status][travis-status-img]][travis-status-url]
+[![CircleCi Status][circleci-status-img]][circleci-status-url]
 [![Coverage Status][coverage-status-img]][coverage-status-url]
 [![Codecov Status][codecov-status-img]][codecov-status-url]
-
 
 String encodings for javascript.
 
@@ -57,3 +57,5 @@ See LICENSE for more info.
 [codecov-status-url]: https://codecov.io/gh/nodar-chkuaselidze/bcstring
 [travis-status-img]: https://travis-ci.com/nodar-chkuaselidze/bcstring.svg?branch=master
 [travis-status-url]: https://travis-ci.com/nodar-chkuaselidze/bcstring
+[circleci-status-img]: https://circleci.com/gh/nodar-chkuaselidze/bcstring/tree/master.svg?style=shield
+[circleci-status-url]: https://circleci.com/gh/nodar-chkuaselidze/bcstring/tree/master
