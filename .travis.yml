@@ -18,5 +18,11 @@ before_install:
   - "test ! -d node_modules || npm prune"
   - "test ! -d node_modules || npm rebuild"
 
+install:
+  - npm install -g coveralls
+  - npm install -g codecov
 
-after_script: "npm install coveralls && cat ./coverage/lcov.info | coveralls"
+
+after_script:
+  - cat ./coverage/lcov.info | coveralls
+  - codecov
