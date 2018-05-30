@@ -184,7 +184,7 @@ describe('cashaddr', function() {
   }
 
   for (const addrinfo of addressTranslationP2SH) {
-    it(`should decode P2Sh with default prefix ${addrinfo.cashaddr}`, () => {
+    it(`should decode P2Sh with default prefix ${addrinfo.cashaddr}..`, () => {
       const defaultPrefix = 'bitcoincash';
       const addr = addrinfo.cashaddr.split(':')[1];
       const results = cashaddr.decode(addr, defaultPrefix);
