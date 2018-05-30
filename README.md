@@ -2,6 +2,8 @@
 
 [![Build Status][travis-status-img]][travis-status-url]
 [![Coverage Status][coverage-status-img]][coverage-status-url]
+[![Codecov Status][codecov-status-img]][codecov-status-url]
+
 
 String encodings for javascript.
 
@@ -51,5 +53,7 @@ See LICENSE for more info.
 
 [coverage-status-img]: https://coveralls.io/repos/github/nodar-chkuaselidze/bcstring/badge.svg?branch=master
 [coverage-status-url]: https://coveralls.io/github/nodar-chkuaselidze/bcstring?branch=master
+[codecov-status-img]: https://codecov.io/gh/nodar-chkuaselidze/bcstring/branch/master/graph/badge.svg
+[codecov-status-url]: https://codecov.io/gh/nodar-chkuaselidze/bcstring
 [travis-status-img]: https://travis-ci.com/nodar-chkuaselidze/bcstring.svg?branch=master
 [travis-status-url]: https://travis-ci.com/nodar-chkuaselidze/bcstring
