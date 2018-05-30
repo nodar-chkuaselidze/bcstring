@@ -82,7 +82,7 @@ const addressTranslationP2PKH = [
 
 const addressTranslationP2SH = [
   {
-    legacy: '3CWFddi6m4ndiGyKqzYvsFYagqDLPVMTzC',
+    legacy: '3CWFddi6m4ndiGyKqzYvsFYagqDLPVMTz',
     cashaddr: 'bitcoincash:ppm2qsznhks23z7629mms6s4cwef74vcwvn0h829pq',
     hash: Buffer.from('76a04053bda0a88bda5177b86a15c3b29f559873', 'hex')
   },
